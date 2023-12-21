@@ -35,15 +35,6 @@
 			"version": "stable"
 		}
 	},
-	"forwardPorts": [
-		5000,
-		5001
-	],
-	"portsAttributes": {
-		"5001": {
-			"protocol": "https"
-		}
-	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
