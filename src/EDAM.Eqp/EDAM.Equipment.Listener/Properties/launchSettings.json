@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "EDAM.Equipment.Listener": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
