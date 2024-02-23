@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="EventHandlers\" />
+    <Folder Include="Events\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EDAM.Core">
+      <HintPath>..\..\EDAM.Core\bin\Release\net8.0\EDAM.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
+
